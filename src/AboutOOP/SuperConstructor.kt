@@ -1,4 +1,4 @@
-package constructor
+package AboutOOP
 
 /**
  * ini materi override constructor
@@ -17,7 +17,7 @@ class Karyawan : Person{
     constructor(nama: String): super(nama, "perempuan")//super
 }
 
-//bisa menggunakan cara ketua yaitu harus membuah constructor di di kelas chill seperti ini
+//bisa menggunakan cara kedua yaitu harus membuah constructor di di kelas chill seperti ini
 class Pengusaha (nama: String, jenisKelamin: String, umur: Int): Person(nama, jenisKelamin, umur){
 
     constructor(nama: String, jenisKelamin: String): this(nama, jenisKelamin, 23)

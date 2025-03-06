@@ -1,11 +1,11 @@
-package constructor
+package AboutOOP
 
 
 /**
  * ini materi constructor
  */
 
-class Car (var brandParam : String, val typeParam : String, var colorParam : String, var yearParam : Int){
+class Car (val brandParam : String, val typeParam : String, val colorParam : String, val yearParam : Int){
 
 //    val brand = brandParam
 //    val type = typeParam
