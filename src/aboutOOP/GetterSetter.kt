@@ -1,4 +1,4 @@
-package AboutOOP
+package aboutOOP
 
 class Note(title : String){
     var title = title

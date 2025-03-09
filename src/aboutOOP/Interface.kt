@@ -1,4 +1,4 @@
-package AboutOOP
+package aboutOOP
 
 /**
  * interface kurang lebihnya sama dengan class, namun lebih tepatnya sama dengan abstract class yaitu tidak bisa langsung digunakan dan harus membuat turunannya
